@@ -13,7 +13,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
   function checkKodam(name) {
       const khodams = [ 
             "Burung Emas 🦅💛", "Guntur Biru 🔵", "Hantu Bayangan 🌑", "Bintang Emas 🌟", "Angin Dingin ❄️","Agus Tiger",
-            "Uyung Berkaki lima", "Eko berkepala naga", "Dajjal pujer", "Barong", "Imron kentut api" , "Sugik anjay"
+            "Uyung Berkaki lima", "Eko berkepala naga", "Dajjal pujer", "Barong", "Imron kentut api" , "Sugik anjay", " Uyung Kopling"
         ];
           
       const index = Math.floor(Math.random() * khodams.length);
