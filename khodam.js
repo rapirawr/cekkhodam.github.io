@@ -21,7 +21,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
             "Cempedak", "Harimau Api Rawrh", "Badut Mampang", "Naga Biru", "Badak Terbang", "Gorilla Petarunk", "Ratu Penyihir", "Rubah sunda",
             "BH Kuntilanak", "Sugik Cempedak", "Uyung Second Choice", "Biawak Alaska", "Agung Amazon", "Ucok GTA", "Bunglon Insomnia", "Ubur-ubur Kayang",
             "Uyung Martabak", "Helikopter Wiu Wiu", "Agus Resing", "Supra Getar", "Agung Royco", "Rice Cooker", "Bak Mandi Blukutuk", "Nastar Push Up",
-            "Aldi Taher", "Ular Sumbing", "Rudi Indomie","Eko kejang kejang","Dika tutut"
+            "Aldi Taher", "Ular Sumbing", "Rudi Indomie","Eko kejang kejang","Dika tutut","Macan Sumatera","Roger Sulawesi","Burung Kalimantan","Biawak Bondowoso","Loly Imut","Vadel Kutu"
         ];
           
       const index = Math.floor(Math.random() * khodams.length);
