@@ -1,4 +1,4 @@
-document.getElementById('checkButton').addEventListener('click', function() {
+Sugikocument.getElementById('checkButton').addEventListener('click', function() {
       const name = document.getElementById('name').value;
       const result = document.getElementById('result');
   
@@ -13,7 +13,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
   function checkKodam(name) {
       const khodams = [ 
             "Burung Emas 🦅💛", "Guntur Biru 🔵", "Hantu Bayangan 🌑", "Bintang Emas 🌟", "Angin Dingin ❄️","Agus Tiger",
-            "Uyung Berkaki lima", "Eko berkepala naga", "Dajjal pujer", "Barong", "Imron kentut api" , "Sugik anjay", " Uyung Kopling"
+            "Uyung Berkaki lima", "Eko berkepala naga", "Dajjal pujer", "Barong", "Imron kentut api" , "Sugik anjay", " Uyung Kopling", "Sugik Togel", "Slamet Michat", "Bakso Uyung", "Basori Pecel Lele", "Siluman Nanang", "Agus Jembatan Ancol", "Eko Moshing", " Uyung Breakdance", "Sugik Molet", "Nono Gombel", "Agus Mohawk", "Bashori Overthinking", "Sugik Introvert"
         ];
           
       const index = Math.floor(Math.random() * khodams.length);
