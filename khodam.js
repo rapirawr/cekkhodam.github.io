@@ -2,16 +2,13 @@ document.getElementById('checkButton').addEventListener('click', function() {
       const name = document.getElementById('name').value;
       const result = document.getElementById('result');
   
-if (name) {
-    if (name == 'fais') {
-        result.innerHTML = 'Anda tidak bisa cek khodam';
-    } else {
-        const khodam = checkKodam(name);
-        result.innerHTML = `Khodam anda adalah: <strong>${khodam}</strong>`;
-    }
-} else {
-    result.innerHTML = '<span style="color: red;">Silahkan masukkan nama anda</span>';
-}
+
+      if (name) {
+          const khodam = checkKodam(name);
+          result.innerHTML = `Khodam anda adalah: <strong>${khodam}</strong>`;
+      } else {
+          result.innerHTML = '<span style="color: red;">Silahkan masukkan nama anda</span>';
+      }
 
   });
   
