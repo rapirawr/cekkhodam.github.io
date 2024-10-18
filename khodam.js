@@ -1,4 +1,4 @@
-Sugikocument.getElementById('checkButton').addEventListener('click', function() {
+document.getElementById('checkButton').addEventListener('click', function() {
       const name = document.getElementById('name').value;
       const result = document.getElementById('result');
   
