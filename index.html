@@ -12,16 +12,26 @@
 </head>
 <body>
     <div class="container">
-        <h1><i class="fas fa-magic"></i> Cek Khodam Anda</h1>
+        <h1><i class="fa-solid fa-wand-magic-sparkles"></i> Cek Khodam Anda</h1>
         <div class="form-group">
             <label for="name">Masukkan nama anda:</label>
-            <input type="text" id="name" placeholder="Nama Anda"> 
-            
+            <div class="wave-group">
+              <input required="" type="text" class="input" id="name">
+              <span class="bar"></span>
+              <label class="label">
+                <span class="label-char" style="--index: 0">N</span>
+                <span class="label-char" style="--index: 1">a</span>
+                <span class="label-char" style="--index: 2">m</span>
+                <span class="label-char" style="--index: 3">a</span>
+                <span class="label-char" style="--index: 3">:</span>
+              </label>
+            </div>
         </div>
-        <button id="checkButton"><i class="fas fa-search"></i> Cek Khodam</button>
+        <button id="checkButton" class="btn"><i class="fas fa-search"></i> Cek Khodam</button>
         
         <div id="result" class="result"></div>
-        <h4>By Rafi Ebin and Pais</h4>
+        <p>Total khodam sekarang adalah: <span id="totalKhodam"></span></p>
+        <h4>&copy By <a class="ig" href="https://www.instagram.com/rapikerenbgt">Rafi</a> <a class="ig" href="https://www.instagram.com/zyrexx_xzy">Ebin</a> and <a class="ig" href="https://www.instagram.com/pais.adhyst_">Pais</a></h4>
     </div>
     <script src="khodam.js"></script>  
 </body>
