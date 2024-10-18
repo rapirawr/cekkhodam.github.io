@@ -15,7 +15,7 @@ Sugikocument.getElementById('checkButton').addEventListener('click', function() 
             "Burung Emas 🦅💛", "Guntur Biru 🔵", "Hantu Bayangan 🌑", "Bintang Emas 🌟", "Angin Dingin ❄️","Agus Tiger",
             "Uyung Berkaki lima", "Eko berkepala naga", "Dajjal pujer", "Barong", "Imron kentut api" , "Sugik anjay", " Uyung Kopling",
             "Sugik Togel", "Slamet Michat", "Bakso Uyung", "Basori Pecel Lele", "Siluman Nanang", "Agus Jembatan Ancol", "Eko Moshing",
-            " Uyung Breakdance", "Sugik Molet", "Nono Gombel", "Agus Mohawk", "Bashori Overthinking", "Sugik Introvert"
+            " Uyung Breakdance", "Sugik Molet", "Nono Gombel", "Agus Mohawk", "Bashori Overthinking", "Sugik Introvert" , "Eko Racing Brumhhh"
         ];
           
       const index = Math.floor(Math.random() * khodams.length);
