@@ -3,7 +3,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
       const result = document.getElementById('result');
   
 if (name) {
-    if (name.toLowerCase() === 'fais') {
+    if (name == 'fais') {
         result.innerHTML = 'Anda tidak bisa cek khodam';
     } else {
         const khodam = checkKodam(name);
